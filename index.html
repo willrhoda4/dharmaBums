@@ -1,5 +1,133 @@
 <!DOCTYPE html>
-<head>
+<html>
 
-</head>
-<body>
+    <head>
+        <title>Peg City Dharma Bums</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,200&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="logo">
+                <img src="images/icon-white.png" alt="lotus icon">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#group-info">Group Info</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#meetings">Meetings</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="main-title">
+            <div class="rectangle" id="blue"></div>
+            <div class="rectangle" id="brown"></div>
+            <div id="title">
+                <h1>Peg City Dharma Bums</h1>
+            </div>
+        </section>
+
+        <section id="weekly-quote">
+            <div id="quote">
+                <p>"Your work is to discover your world and then with all your heart give yourself to it."</p>
+                <br>
+                <p>-Buddha</p>
+            </div>
+            <div class="image-wrapper">
+                <img src="images/buddha-silhouette.png" alt="silhouette of a meditating buddha">
+            </div>
+        </section>
+
+        <section id="group-info">
+            <div class="image-container">
+                <img src="images/bodhisattva-1.jpeg" alt="a woman meditating as the sun sets">
+            </div>
+            <div class="info">
+                <p><b>Peg City Dharma Bums</b> is a Winnipeg-based sangha that digs meditation and pluralistic thinking. While unsolicited donations are always welcome, our study sessions are open to the public and available at no cost.</p>
+            </div>
+        </section>
+
+        <section id="instructors">
+            <div class="heading">
+                <h2>Instructors</h2>
+            </div>
+            <div id="instructor-profiles">
+                <div class="profile">
+                    <img src="images/instructor-1.jpeg">
+                    <p><b>Dianne Dharma</b> has spent three decades across four continents studying with renowned teachers from some of the world's most celebrated wisdom traditions.</p>
+                </div>
+                <div class="profile">
+                    <img src="images/instructor-2.jpeg" alt="a young woman meditating in the woods">
+                    <p><b>Molly Mindfulness</b> hasn't been in the game for as long as Dianne, but she has been on retreat once or twice, and has good availability in the evenings.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="meetings">
+            <div class="heading">
+                <h2>Meetings</h2>
+            </div>
+            <div id="meetings-content">
+                <div class="info">
+                    <p>We meet every week at <b>19 Home Street</b> between 7 p.m. and 9 p.m. on Wednesdays and 12 p.m. and 2 p.m. on Saturdays. Walk-ins are welcome, or feel free to touch base first through our <a href="#contact">contact</a> section.</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/bodhisattva-2.jpeg" alt="a woman plays a Tibettan singing bowl in front of a meditation shrine with incense burning">
+                </div>
+                <div id="map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=19%20home%20street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://123movies-a.com"></a>
+                            <br>
+                            <style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}</style>
+                            <a href="https://www.embedgooglemap.net">embed google map responsive</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+                     
+        </section>
+
+        <section id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>
+            <div id="contact-content">
+                <div class="image-wrapper">
+                    <img src="images/bodhisattva-3.jpeg" alt="a woman meditating next to a dog in a studio apartment">
+                </div>
+                <div class="info">
+                    <div class="container">
+                        <form action="action_page.php">
+                    
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="fledgling.bodhisattva@pcdharmabums.ca">              
+                        
+                        <label for="subject"><br><br>Message</label>
+                        <textarea id="subject" name="subject" placeholder="Type your message here..." style="height: 200px;"></textarea>
+                    
+                        <input id="submit" type="submit" value="Submit">
+                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Designed by: William Reginald Rhoda</p>
+        </footer>
+
+
+
+
+    </body>
+
